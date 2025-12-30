@@ -20,7 +20,7 @@ export default function Navbar() {
                 </a>
                 <div className="hidden md:flex items-center gap-8 transition duration-500">
                     <RouterLink to={"/"} className="hover:text-pink-300 transition">Home</RouterLink>
-                    <RouterLink to={"/gnerate"} className="hover:text-pink-300 transition">Generate</RouterLink>
+                    <RouterLink to={"/generate"} className="hover:text-pink-300 transition">Generate</RouterLink>
                     <RouterLink to={"/my-generation"} className="hover:text-pink-300 transition">My Generation</RouterLink>
                     <Link smooth to="/#contact" className="hover:text-pink-300 transition">Contact</Link>
                 </div>
